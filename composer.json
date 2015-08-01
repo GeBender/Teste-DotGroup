@@ -1,8 +1,8 @@
 {
-"name": "gebender/simplesys",
-    "description": "Cupcake is a microFramework to autoRoute and autoRender by the url. It is based on the Symfony2 Components.",
-    "keywords": ["microframework", "autoroute", "autorender"],
-    "homepage": "http://cupcake.simplesys.com.br/",
+"name": "gebender/test-dotGrroup",
+    "description": "Exercícios do teste de conhecimentos para Analista Desenvolvedor do DotGroup. Processo de recrutamento da BDR - Recrutamento e Seleção.",
+    "keywords": ["microframework", "testes"],
+    "homepage": "http://www.gebender.com.br/dot-group/",
     "license": "MIT",
     "authors": [
         {
@@ -13,19 +13,17 @@
 	],
 	"require": {
 		"php": ">=5.3",
-        "cakephp/cakephp": "~3.0",
-		"ext-mcrypt": "*"
+        "cakephp/cakephp": "~3.0"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "3.7.*",
-		"cakephp/debug_kit" : "2.2.*"
+		"phpunit/phpunit": "3.7.*"
 	},
     "autoload": {
 		"psr-4": {
-            "FizzBuzz\\": "1-FizzBuzz\\Core",
-			"Refactoring1\\": "2-Refactoring\\Core",
-			"Refactoring2\\": "3-Refactoring\\Core",
-            "ApiRest\\": "4-ApiRest\\Core"
+            "FizzBuzz\\": "FizzBuzz",
+			"Refactoring1\\": "Refactoring1",
+			"Refactoring2\\": "Refactoring2",
+            "ApiRest\\": "ApiRest"
 		}
 	},
 	"bin": [
