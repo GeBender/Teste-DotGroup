@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a11f30ef85e6efffd59a7741cbb311c",
+    "hash": "e77c5df29ec2e0cb2137d5f6d09ccda3",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -289,6 +289,47 @@
             ],
             "description": "A composer installer for CakePHP 3.0+ plugins.",
             "time": "2015-06-10 10:35:13"
+        },
+        {
+            "name": "crabstudio/cakephp-light",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/crabstudio/Light.git",
+                "reference": "eca4b5bec1549d07818fa204f06299232207ddb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/crabstudio/Light/zipball/eca4b5bec1549d07818fa204f06299232207ddb7",
+                "reference": "eca4b5bec1549d07818fa204f06299232207ddb7",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/plugin-installer": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "cakephp/cakephp": "3.0.*-dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Crabstudio\\Light\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "anhtuank7c",
+                    "email": "anhtuank7c@hotmail.com"
+                }
+            ],
+            "description": "CakePHP 3.0 bake Light theme",
+            "time": "2014-12-03 16:15:00"
         },
         {
             "name": "friendsofcake/crud",
@@ -1265,6 +1306,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "crabstudio/cakephp-light": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,

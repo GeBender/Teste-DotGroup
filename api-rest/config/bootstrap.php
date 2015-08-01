@@ -204,3 +204,5 @@ Type::build('datetime')->useLocaleParser();
 Plugin::load('crud');
 
 Plugin::load('Migrations');
+
+Plugin::load('Crabstudio\Light');
