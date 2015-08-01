@@ -13,8 +13,6 @@
  */
 namespace Refactoring1;
 
-use Cake\Core\Exception\Exception;
-
 class Refactoring1
 {
 
