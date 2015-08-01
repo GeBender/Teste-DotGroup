@@ -13,10 +13,10 @@ Além de algumas correções básicas e ajustes de boas práticas, novamente pri
 * Abra o arquivo /Refactoring1/Core/Refactoring1.php para avaliar a classe;
 
 ## 3 - Refactor2
-Neste exercício organizamos um pouco mais para definir melhor cada papel pequena aplicação, com classes para config, connetion, DAO e Usuário, para ficar mais divertido fizemos com acesso ao banco. Para rodar:
+Neste exercício organizamos um pouco mais para definir melhor cada papel pequena aplicação, com classes para config, connetion, DAO e Usuário Para ficar mais divertido fizemos com acesso ao banco. Para rodar:
 - Crie um banco de dados
 - Rode os comandos SQLs contidos em /Refactorig2/user.sql
-- Coloque as configurações do bancom em /Refactoring/Core/Config.php
+- Coloque as configurações do banco em /Refactoring/Core/Config.php
 - Novamente, o arquivo da raiz, em /Refactoring apenas roda a aplicação,
 - A aplicação que está em /Refactoring/Core
 
