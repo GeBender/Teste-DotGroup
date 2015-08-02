@@ -50,6 +50,7 @@ Priorizarei o envio dentro do prazo embora gostaria de caprichar mais. Fico inte
 Estou desde já feliz com a oportunidade de possivelmente integrar um time de desenvolvimento maduro, onde poderei encontrar bons desafios, me desenvolver e também contribuir com a experiência venho juntando nesses 15 anos de estrada.
 
 Atenciosamente
+
 Gesian Bender
 
 
