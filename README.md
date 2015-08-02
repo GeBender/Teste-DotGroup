@@ -42,7 +42,7 @@ Para testar as requisições, alguns exemplos, considerando um servidor com ende
 O acesso à API também pode ser feita utilizando a interface padrão do CakePHP, com todas as funcções da API:
 - Lista: http://localhost/api-rest/tasks
 
-## 5 - Outros Diferenciais: Responsividade e drag and drop
+## 5 - Outros Diferenciais
 Infelizmente não houve tempo hábil para colocar o layout responsivo e o drag and drop mas espero que o demonstrado até aqui seja uma amostra útil para a avaliação.
 
 Priorizarei o envio dentro do prazo embora gostaria de caprichar mais. Fico inteiramente a disposição para novos contatos, conversar ou outros testes.
