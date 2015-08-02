@@ -38,12 +38,15 @@ Para testar as requisições, alguns exemplos, considerando um servidor com ende
 - Edit via PUT http://localhost/api-rest/tasks/4 (enviando campos por json)
 - Delete via DELETE http://localhost/api-rest/tasks/4
 
-- Interface: O acesso à API também pode ser feita utilizando a interface padrão do CakePHP, com todas as funcções da API:
+##Interface:
+O acesso à API também pode ser feita utilizando a interface padrão do CakePHP, com todas as funcções da API:
 - Lista: http://localhost/api-rest/tasks
 
 ## 5 - Outros Diferenciais: Responsividade e drag and drop
 Infelizmente não houve tempo hábil para colocar o layout responsivo e o drag and drop mas espero que o demonstrado até aqui seja uma amostra útil para a avaliação.
+
 Priorizarei o envio dentro do prazo embora gostaria de caprichar mais. Fico inteiramente a disposição para novos contatos, conversar ou outros testes.
+
 Estou desde já feliz com a  oportunidade de possivelmente integrar um time de desenvolvimento maduro, onde poderei encontrar bons desafios, me desenvolver e também contribuir com a experiência que trago nesses 15 anos de estrada.
 
 Atenciosamente
