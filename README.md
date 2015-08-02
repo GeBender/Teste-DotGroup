@@ -43,11 +43,11 @@ O acesso à API também pode ser feita utilizando a interface padrão do CakePHP
 - Lista: http://localhost/api-rest/tasks
 
 ## 5 - Outros Diferenciais
-Infelizmente não houve tempo hábil para colocar o layout responsivo e o drag and drop mas espero que o demonstrado até aqui seja uma amostra útil para a avaliação.
+Infelizmente não houve tempo hábil para colocar o layout responsivo e o drag and drop mas espero que o foi feito até aqui seja útil para a avaliação.
 
-Priorizarei o envio dentro do prazo embora gostaria de caprichar mais. Fico inteiramente a disposição para novos contatos, conversar ou outros testes.
+Priorizarei o envio dentro do prazo embora gostaria de caprichar mais. Fico inteiramente a disposição para novos contatos, conversas ou outros testes.
 
-Estou desde já feliz com a  oportunidade de possivelmente integrar um time de desenvolvimento maduro, onde poderei encontrar bons desafios, me desenvolver e também contribuir com a experiência que trago nesses 15 anos de estrada.
+Estou desde já feliz com a oportunidade de possivelmente integrar um time de desenvolvimento maduro, onde poderei encontrar bons desafios, me desenvolver e também contribuir com a experiência venho juntando nesses 15 anos de estrada.
 
 Atenciosamente
 Gesian Bender
