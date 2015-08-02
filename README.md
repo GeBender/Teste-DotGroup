@@ -13,22 +13,24 @@ Além de algumas correções básicas e ajustes de boas práticas, novamente pri
 * Abra o arquivo /Refactoring1/Core/Refactoring1.php para avaliar a classe;
 
 ## 3 - Refactor2
-Neste exercício organizamos um pouco mais para definir melhor cada papel da pequena aplicação, com classes para config, connetion, DAO e Usuário Para ficar mais divertido fizemos com acesso ao banco. Para rodar:
+Neste exercício organizamos um pouco mais para definir melhor cada papel da pequena aplicação, com classes para config, connection, DAO e User. Para ficar mais divertido fiz com acesso real ao banco. Para rodar:
 - Crie um banco de dados
 - Rode os comandos SQLs contidos em /Refactorig2/user.sql
-- Coloque as configurações do banco em /Refactoring/Core/Config.php
-- Novamente, o arquivo da raiz, em /Refactoring apenas roda a aplicação,
-- A aplicação que está em /Refactoring/Core
+- Coloque as configurações do banco em /Refactoring2/Core/Config.php
+- Novamente, o arquivo da raiz, em /Refactoring2 apenas roda a aplicação,
+- A aplicação que está em /Refactoring2/Core
 
 ## 4 - API Rest
-A Api foi feita em Cake com auxílio de alguns plugins, para rodar, os simples passos precisam ser dados.
+A Api foi feita em Cake, conforme sugerido, e com auxílio de alguns plugins. Para rodar apenas estes simples passos precisam ser dados.
 - Crie um banco de dados, ou use o mesmo do exercício 3, como preferir.
-- Altere o arquivo "config/app.php" em "Datasources" e adicione suas configurações de banco de dados
-- Execute em /api-rest/bin: cake migrations migrate 
+- Altere o arquivo "config/app.php": em "Datasources" adicione suas configurações de banco de dados
+- Em /api-rest/bin execute: "cake migrations migrate "
+
 Pronto, o Cake está rodando. Para testar a API Rest utilize um desses plugins:
 - RESTClient se o navegador é o Firefox
 - Postman plugin para o Chrome
 - Cocoa REST Client se está em um Mac
+
 Para testar as requisições, alguns exemplos, considerando um servidor com endereço "localhost"
 - Index via GET: http://localhost/api-rest/tasks.json
 - View via GET: http://localhost/api-rest/tasks/4.json
